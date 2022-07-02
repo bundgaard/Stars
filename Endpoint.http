@@ -1,0 +1,12 @@
+### SAVE A STAR
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "name": "Foo Fooson"
+}
+
+
+### GET ALL STARS
+GET http://localhost:8080/
+Content-Type: application/json
